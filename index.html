@@ -1,25 +1,50 @@
 <!DOCTYPE html>
 <html>
-	<header>
+	<head>
 		<title>Student Bio</title>
-	</header>
+		<style type="text/css">
+			header {
+				background-color: Black;
+			}
+
+			h1 {
+				color: white;
+				text-align: center;
+			}
+
+			.left {
+				float: left;
+			}
+
+			.right {
+				float: right;
+			}
+
+			.middle {
+				position: absolute;
+				top: 115px;
+				left: 400px;
+			}
+
+		</style>
+	</head>
 	<body>
-	<section>
-		<h1>John McGrew</h1>
-	</section>
-	<br>
-	<section>
+	<header>
+		<h1>Student Bio</h1>
+	</header>
+	<section class="left">
+		<h2>John McGrew</h2>
 		<img src="http://www.hoffmanmodels.com/wp-content/uploads//med/modelimage1_1422044877593_DSC_9026-001.jpg">
-		<br>
-		<p>This is a short paragraph about myself and I don't know what to put here</p>
 	</section>
-	<br>
-	<section>
+	<div class="middle">
+		<p>This is a short paragraph about myself and I don't know what to put here</p>
+	</div>
+	<div class="right">
 		<h3>Contact Info</h3>
 		<ul>
 			<li>Email: <a href="mailto:JohnMichaelMcGrew@Gmail.com">JohnMichaelMcGrew@gmail.com</a></li>
 			<li>GitHub: <a href="https://github.com/JohnMichaelKU">JohnMichaelKU</a></li>
 			<li>Portfolio: <a href="https://github.com/JohnMichaelKU/KUCoding">KUCoding</a></li>
 		</ul>
-	</section>
+	</div>
 	</body>
